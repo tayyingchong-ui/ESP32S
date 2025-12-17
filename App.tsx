@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import { Map, Calendar, Coffee, ClipboardList, Info, Menu, X, CloudFog } from 'lucide-react';
 import Timeline from './components/Timeline';
@@ -32,7 +33,7 @@ const App: React.FC = () => {
           <div className="flex justify-between h-16">
             <div className="flex items-center">
               <CloudFog className="h-8 w-8 text-indigo-600 mr-2" />
-              <span className="font-bold text-xl tracking-tight text-slate-900">Genting 2027</span>
+              <span className="font-bold text-xl tracking-tight text-slate-900">Genting 2028</span>
             </div>
             
             {/* Desktop Menu */}
@@ -104,7 +105,7 @@ const App: React.FC = () => {
               雲頂高原 3天2夜 新春之旅
             </h1>
             <p className="text-xl text-indigo-200 max-w-2xl mx-auto">
-              2027 農曆新年 · 朋友歡聚 · 娛樂美食
+              2028 農曆新年 · 朋友歡聚 · 娛樂美食
             </p>
           </div>
         </div>
@@ -121,7 +122,7 @@ const App: React.FC = () => {
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
                   {[
-                    { label: '日期', value: '2027 農曆新年' },
+                    { label: '日期', value: '2028 農曆新年' },
                     { label: '天數', value: '3 天 2 夜' },
                     { label: '預算', value: '< 5000 TWD/日' },
                     { label: '交通', value: '大眾運輸 (巴士/纜車)' },
@@ -229,7 +230,7 @@ const App: React.FC = () => {
       {/* Footer */}
       <footer className="bg-white border-t border-slate-200 mt-12 py-8">
         <div className="max-w-6xl mx-auto px-4 text-center text-slate-400 text-sm">
-          <p>© 2027 Genting Trip Planner. Designed for Friends Trip.</p>
+          <p>© 2028 Genting Trip Planner. Designed for Friends Trip.</p>
         </div>
       </footer>
     </div>

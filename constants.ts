@@ -1,3 +1,4 @@
+
 import { CostData, DayPlan, FoodCategory, FoodSpot } from './types';
 
 // Charts Data
@@ -72,11 +73,11 @@ export const foodSpots: FoodSpot[] = [
   }
 ];
 
-// Itinerary Data (Updated for 2027 CNY - Feb 7 is CNY Day 1)
+// Itinerary Data (Updated for 2028 CNY - Jan 26 is CNY Day 1)
 export const itineraryData: DayPlan[] = [
   {
     day: 1,
-    date: '2027/02/06 (除夕)',
+    date: '2028/01/25 (除夕)',
     title: '抵達雲頂與室內探索',
     items: [
       {
@@ -132,7 +133,7 @@ export const itineraryData: DayPlan[] = [
   },
   {
     day: 2,
-    date: '2027/02/07 (初一)',
+    date: '2028/01/26 (初一)',
     title: '戶外樂園與文化體驗',
     items: [
       {
@@ -179,7 +180,7 @@ export const itineraryData: DayPlan[] = [
   },
   {
     day: 3,
-    date: '2027/02/08 (初二)',
+    date: '2028/01/27 (初二)',
     title: '購物與返程',
     items: [
       {
